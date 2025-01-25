@@ -1,3 +1,11 @@
+# Try out
+https://sk-resume-to-job-alignment.streamlit.app/
+
+You'll need:
+1. Claude API key. This is the only LLM supported atm.
+2. PDF Resume
+3. Job URL
+
 # Resume-Job Alignment Tool
 
 Upload your resume and job posting URL to get:
