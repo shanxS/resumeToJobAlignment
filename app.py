@@ -12,7 +12,11 @@ st.markdown("""
     - **Matching Skills Analysis**
     - **Missing Skills Identification**
     - **Improvement Suggestions**
+    
     [Code](https://github.com/shanxS/resumeToJobAlignment)
+    
+    
+    -------------
 """)
 
 api_key = st.text_input("Enter Anthropic API Key", type="password")
