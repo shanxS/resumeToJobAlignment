@@ -6,6 +6,14 @@ from bs4 import BeautifulSoup
 import io
 
 st.title("Resume-Job Matcher")
+st.markdown("""
+    Upload your resume and job posting URL to get:
+    - **Match Score**
+    - **Matching Skills Analysis**
+    - **Missing Skills Identification**
+    - **Improvement Suggestions**
+    [Code](https://github.com/shanxS/resumeToJobAlignment)
+""")
 
 api_key = st.text_input("Enter Anthropic API Key", type="password")
 if api_key:
